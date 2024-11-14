@@ -24,6 +24,13 @@ pip install -r requirements.txt
 ```console
 python3 MailSecOps.py
 ```
+![image](./images/main.png)
+![image](./images/spoofing.png)
+![image](./images/compliance.png)
+![image](./images/malware_create.png)
+![image](./images/single_malware.png)
+![image](./images/malware_all.png)
+![image](./images/reporting.png)
 ## Requirements
 * Python 3.6 or later
 * colorama~=0.4.6

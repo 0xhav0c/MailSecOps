@@ -63,7 +63,7 @@ def report_menu():
         title = template_titles.get(report['template'], 'No Title')
         print(f"\n{Fore.LIGHTCYAN_EX}Template Title:{Style.RESET_ALL} {title}")
         print(f"{Fore.LIGHTCYAN_EX}Mail Subject:{Style.RESET_ALL} {report['subject']}")
-        print(f"{Fore.LIGHTCYAN_EX}Referans ID:{Style.RESET_ALL} {report['reference_id']}")
+        print(f"{Fore.LIGHTCYAN_EX}Reference ID:{Style.RESET_ALL} {report['reference_id']}")
         print("Select status: ")
         print("1. Inbox")
         print("2. Spam")

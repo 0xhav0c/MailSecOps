@@ -47,7 +47,7 @@ def main_menu():
         try:
             if show_banner:
                 print_centered(ascii_banner)
-                print_centered("Welcome to Spoof MailSecOps. Perform tests from the options below.")
+                print_centered("Welcome to MailSecOps. Perform tests from the options below.")
                 print_centered("!!! If you want to send the malware files, create malwares before sending spoofed mails.")
                 show_banner = False
 

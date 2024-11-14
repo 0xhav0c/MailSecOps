@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3a721c0-d74a-46f3-8548-ddc3345acdb8" name="Changes" comment="">
+    <list default="true" id="f3a721c0-d74a-46f3-8548-ddc3345acdb8" name="Changes" comment="fix keyword">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report.py" beforeDir="false" afterPath="$PROJECT_DIR$/report.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MailSecOps.py" beforeDir="false" afterPath="$PROJECT_DIR$/MailSecOps.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "0xhav0c"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;0xhav0c&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/0xhav0c/MailSecOps.git",
-    "accountId": "a8299889-ad90-442a-bd5d-1d7d4385fb3e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/0xhav0c/MailSecOps.git&quot;,
+    &quot;accountId&quot;: &quot;a8299889-ad90-442a-bd5d-1d7d4385fb3e&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/mail-security-checker.py" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -55,9 +55,9 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
@@ -126,8 +126,18 @@
       <workItem from="1731425869698" duration="4441000" />
       <workItem from="1731539062887" duration="1455000" />
       <workItem from="1731546545368" duration="91000" />
-      <workItem from="1731547967579" duration="786000" />
+      <workItem from="1731547967579" duration="1076000" />
+      <workItem from="1731572380704" duration="44000" />
     </task>
+    <task id="LOCAL-00001" summary="fix keyword">
+      <option name="closed" value="true" />
+      <created>1731548997624</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731548997624</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,5 +156,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fix keyword" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix keyword" />
   </component>
 </project>

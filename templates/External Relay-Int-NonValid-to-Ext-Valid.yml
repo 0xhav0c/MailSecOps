@@ -1,0 +1,30 @@
+Title: External Relay - Int NonValid to Ext Valid
+description: |
+  For this test, first of all, open relay must be enabled on the relevant SMTP server. In this scenario, an attempt will be made to send an email from the internal SMTP server to the external mail server. For example::
+
+  sender@internal-domain.com | (non-exist)
+  receiver@external-domain.com | (exist)
+type: spoof
+Order: 6
+subject: "Project Proposal: [Project Name]"
+headers:
+  Content-Type: "text/html; charset=UTF-8"
+body: |
+  <html>
+    <body style="font-family: Arial, sans-serif; color: #333;">
+      <p>Dear [Client Name],</p>
+
+      <p>I hope this email finds you well. Please find attached the project proposal for the <strong>[Project Name]</strong> project.
+      This proposal outlines the goals, timeline, and estimated budget for the project.</p>
+
+      <p>We are excited to work with you and believe this project will be a great success. Please feel free to reach out if you have any questions or need any further information.</p>
+
+      <p>Looking forward to your feedback!</p>
+
+      <p>Best regards,<br>  
+      [Your Name]<br>  
+      [Your Job Title]<br>  
+      [Company Name]<br>  
+      [Company Contact Information]</p>
+    </body>
+  </html>

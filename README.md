@@ -8,7 +8,7 @@ With this tool, you can simulate various attack vectors against the mail infrast
 This tool helps organizations strengthen their firewalls more effectively by allowing security professionals to identify weak points in their email infrastructure and simulate attacks that could be launched through those points.
 
 ## How to Work?
-The MailSecOps tool is designed to perform spoofing (spoofing) and relay (transmission via a proxy) tests on SMTP servers. In order for these functions to work correctly, the tool must first provide direct access to the target SMTP server.
+The MailSecOps tool is designed to perform spoofing and relay tests on SMTP servers. In order for these functions to work correctly, the tool must first provide direct access to the target SMTP server.
 
 ### SMTP Server Access Requirements
 In order for the spoofing and relay tests to be successfully executed, MailSecOps must be able to access the standard ports of the target SMTP server:

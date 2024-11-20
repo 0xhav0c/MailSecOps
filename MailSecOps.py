@@ -55,7 +55,7 @@ def main_menu():
 
             prompt_text = (
                 Fore.LIGHTRED_EX + "> " +
-                Fore.LIGHTCYAN_EX + "Choose an option (1-6 or type " +
+                Fore.LIGHTCYAN_EX + "Choose an option (1-7 or type " +
                 Fore.LIGHTRED_EX + Style.BRIGHT + "exit" +
                 Fore.LIGHTCYAN_EX + "):" +
                 Style.RESET_ALL
